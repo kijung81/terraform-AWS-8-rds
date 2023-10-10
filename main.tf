@@ -80,6 +80,6 @@ resource "aws_security_group" "rds" {
   }
 
   tags = {
-    Name = "${var.prefix}-rds-sg"  
+    Name = "${var.prefix}-rds-sg01"  
   }
 }
